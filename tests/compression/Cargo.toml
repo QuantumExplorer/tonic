@@ -17,7 +17,7 @@ prost = "0.12"
 tokio = {version = "1.0", features = ["macros", "rt-multi-thread", "net"]}
 tokio-stream = "0.1"
 tonic = {path = "../../tonic", features = ["gzip", "zstd"]}
-tower = {version = "0.4", features = []}
+tower = { git = "https://github.com/quantumexplorer/tower", branch = "fix/indexMap2", features = []}
 tower-http = {version = "0.4", features = ["map-response-body", "map-request-body"]}
 
 [build-dependencies]
