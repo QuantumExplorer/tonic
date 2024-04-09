@@ -21,7 +21,7 @@ http = "0.2"
 http-body = "0.4"
 hyper = "0.14"
 tokio-stream = {version = "0.1.5", features = ["net"]}
-tower = { git = "https://github.com/quantumexplorer/tower", branch = "fix/indexMap2", features = []}
+tower = { git = "https://github.com/quantumexplorer/tower", branch = "fix/indexMap2OnV0413", features = []}
 tower-http = { version = "0.4", features = ["set-header", "trace"] }
 tower-service = "0.3"
 tracing = "0.1"
